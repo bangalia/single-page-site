@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    color: #000;
+    background-color: darkgreen;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    color: cornflowerblue;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+b{
+    color: cornflowerblue;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
