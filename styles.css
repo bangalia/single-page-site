@@ -6,7 +6,7 @@ body{
     background-color: darkgreen;
 }
 
-nav{
+nav a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
