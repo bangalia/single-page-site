@@ -20,8 +20,9 @@
 				align-items: baseline;
 				padding: 1em;
 				background-color: darkgreen;
-				color: #000;
-				display: flex;
+				color: #fff;
+                display: flex;
+    
 			}
 
 			nav h1, ul {
@@ -30,7 +31,7 @@
 
 			nav a {
 				text-decoration: none;
-				color: #eee;
+				color: #fff;
 			}
 
 			nav ul {
@@ -40,72 +41,79 @@
 
 			nav ul a {
 				padding: 1em;
-				color: tomato;
+				color:#000;
 			}
 
 			nav ul a:hover {
-				color: pink;
+				color: #fff;
 			}
 
-			#Aloe-Vera-Plants {
-				background-color: #26B63E;
-				background-image: url(images/pisauikan-N29JXkNO1xI-unsplash.jpg); 
-				background-size: contain;
+			#History{
+                background-color: #26B63E;
+                background-image: url(images/pisauikan-N29JXkNO1xI-unsplash.jpg); 
+                background-size: cover;
 				display: flex;
 				justify-content: center;
 				align-items: center;
-				font-size: 4em;
+				font-size: 2em;
 				color: #fff;
 			}
 
 			#History > div {
 				position: relative;
 				left: -120px;
-				top: 120px;
+                top: 120px;
+            
 			}
 
 			#History h2, #History p {
 				margin: 0;
 				text-shadow: 0 0 20px #000000;
-			}
+            }
+
+            
 
 
 			/* Create some cards in this section */
-			#Fun-Facts {
-				background-color: #26323f;
+			#tidbits {
+                background-color: #26323f;
+                background-image: url(images/mitchell-luo-s56fh3HWPow-unsplash.jpg);
+                
 			}
 
-			#Fun-Facts ul {
+			#tidbits ul {
 				list-style: none;
 				margin: 0;
-				padding: 0;
-				display: flex;
-				justify-content: center;
+                padding: 0;
+                display: flex;
+                justify-content: center;
 			}
 
-			#Fun-Facts > h2 {
+			#tidbits > h2 {
 				margin: 1em;
 				font-size: 3em;
 				text-align: center;
-				color: #eee;
+				color: #fff;
 			}
 
 			.card {
 				width: 400px;
 				margin: 1em;
-				background-color: #eee;
-				box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+                background-color: #eee;
+                box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+                
+                
 			}
 
-			.card img {
-				width: 100%;
+			#card img {
+				width: fit-content ;
 			}
 
-			.card h3 {
+			#card h3 {
 				font-size: 2em;
 			}
 
-			.card h3, .card p {
+			#card h3, #card p {
 				margin: 1rem;
 			}
 
@@ -134,10 +142,10 @@
 
 			/* Style this */
 			#Aloe-Vera-Products{
-				background-color: #461c3b;
-				display: flex;
+                background-color: darkolivegreen;
+                display: flex;
 				color: #fff;
-				background-image: url(images/sound-texture.jpg); width: auto; height: auto;
+                background-image: url(images/mary-ray-UDqvtCyZ3p4-unsplash.jpg);
 				background-size: cover;
 			}
 
